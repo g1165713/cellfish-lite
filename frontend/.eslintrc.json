@@ -1,0 +1,40 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+    "extends": ["eslint:recommended", "plugin:vue/recommended"],
+    "plugins": ["vue"],
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "vue/html-indent": [
+            "error",
+            4
+        ],
+        "vue/require-v-for-key": "off",
+        "vue/require-prop-types": "off",
+        "vue/valid-v-for": "off",
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "never"
+        ],
+        "prefer-const": [
+            "error"
+        ]
+    }
+}
