@@ -6,5 +6,5 @@ request_method("POST");
 request_params(["email","username"]);
 
 
-\sqlite3\execute("UPDATE user SET email = :email WHERE username = :username");
+\sqlite3\execute("UPDATE user SET email = :email WHERE username = :username",$params);
 ok();
